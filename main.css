@@ -1,0 +1,147 @@
+body {
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.myHeader {
+  background: url('snow-top-mountain-under-clear-sky-1054218.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  padding: 40px;
+  /* width: 100%; */
+}
+
+.myFooter {
+  background-color: #228bdc;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px 0;
+  max-width: 1200px;
+  /* width: 100%; */
+}
+
+.skills-container {
+  margin: 0 auto;
+  padding: 40px;
+  /* width: 700px; */
+  max-width: 1200px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .skills-container div {
+  margin: 30px;
+} */
+
+.footerContainer {
+  margin: 0 auto;
+  padding: 40px 0;
+  max-width: 1200px;
+  /* width: 100%; */
+  text-align: center;
+}
+
+.container-experience {
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+  /* width: 700px; */
+  max-width: 1200px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-experience > div {
+  flex-basis: 45%;
+}
+
+/* old footer
+
+.footer-container {
+  width: 1200px;
+  background-color: #228bdc;
+  height: 400px;
+  margin: 0 auto;
+}
+
+*/
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu-link:hover {
+  color: white;
+}
+
+.menu-link {
+  margin: 15px;
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+
+.headshot {
+  height: 350px;
+}
+
+.headshot:hover {
+  transform: scale(1.2);
+}
+
+.skill-item {
+  background: grey;
+  padding: 20px;
+  border: 1px solid black;
+  margin-left: 20px;
+  /* height: 300px;
+  width: 50%; */
+  /* height: 300px;
+  width: 500px; */
+}
+
+.skill-item:hover {
+  transform: scale(1.2);
+}
+
+#Skills {
+ /* background-image: linear-gradient(to bottom right, #69a7b9, grey); */
+ background: url('experience.jpg');
+ background-attachment: fixed;
+ padding: 40px;
+ color: white;
+ /* width: 100%; */
+}
+
+#Contact {
+  background-color: #228bdc;
+}
+
+#Experience {
+  padding: 40px;
+}
+
+#about {
+  padding: 20px;
+}
